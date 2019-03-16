@@ -1,0 +1,12 @@
+/**index.wxss**/
+/* 瀑布流 */
+.img_item {
+  width: 48%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+}
+.name{
+  text-align: center;
+  line-height: 58rpx;
+}

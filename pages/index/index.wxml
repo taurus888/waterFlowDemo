@@ -1,0 +1,22 @@
+
+    <!--瀑布流  -->   
+    <view scroll-y="true">
+      <view style="width:100%">
+        <view class="img_item">
+          <view wx:for="{{col1}}" wx:key="id" class='hotVideoListItem'  bindtap='getOldFriendsShowInfo' data-id='{{item.id}}'>
+            <image src="{{item.imageUrl}}" mode="widthFix" style="width:100%;"></image>
+            <view class='videoBottom'>              
+              <view class='name'>Lucky</view>  
+            </view>  
+          </view>
+        </view>
+        <view class="img_item">
+          <view wx:for="{{col2}}" wx:key="id" class='hotVideoListItem'  bindtap='getOldFriendsShowInfo' data-id='{{item.id}}'>
+            <image src="{{item.imageUrl}}" mode="widthFix"  style="width:100%;"></image>                  
+              <view class='videoBottom'>             
+              <view class='name'>Lucky</view> 
+            </view> 
+          </view>
+        </view>
+      </view>
+    </view>   
